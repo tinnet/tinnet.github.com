@@ -8,17 +8,35 @@
 </head>
 <body>
 
-<ul class="tabs">
-  <li class="active"><a href="#">Home</a></li>
-  <li><a href="/">me</a></li>
-  <li><a href="/about.html">about</a></li>
-  <li><a href="/quotes.html">quotes</a></li>
-</ul>
-
+<div class="topbar">
+  <div class="fill">
+    <div class="container">
+      <h3><a href="#">Bootstrap</a></h3>
+      <ul class="tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="/">me</a></li>
+        <li><a href="/about.html">about</a></li>
+        <li><a href="/quotes.html">quotes</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <div class="container">
 {{ content}}
 </div>
+
+<div id="footer">
+  <div class="inner">
+    <div class="container">
+      <p class="right"><a href="#">Back to top</a></p>
+      <p> copyright etc.</p>
+     </div>
+  </div>
+</div>
+
+
+
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', {{ site.google_analytics }}]);
