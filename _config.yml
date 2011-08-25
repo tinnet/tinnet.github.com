@@ -1,0 +1,6 @@
+auto: true
+server: true
+pygments: true
+use_disqus: false
+google_analytics: UA-18503170-1
+permalink: /:year/:month/:day/:title.html
