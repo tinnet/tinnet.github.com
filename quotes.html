@@ -1,0 +1,20 @@
+---
+layout: default
+title: quotes - condensed wisdom
+quotes:
+    - what: "Though this be madness, yet there is method in 't."
+      where: "From Hamlet (II, ii, 206)"
+    - what: "Those who believe in telekinetics, raise my hand..."
+      who: "Kurt Vonnegut"
+    - what: "Three o.clock is always too late or too early for anything you want to do."
+      who: "Jean-Paul Sartre"
+    - what: "Violence is a sword that has no handle . you have to hold the blade."
+    - what: "We are alone, absolutely alone on this chance planet: and, amid all the forms of life that surround us, not one, excepting the dog, has made an alliance with us."
+      who: "Maurice Maeterlinck"
+    - what: "We live as we dream . alone."
+      who: "Joseph Conrad"
+---
+
+{% for quote in page.quotes %}
+    {{ quote.what }}
+{% endfor %}
