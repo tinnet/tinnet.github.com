@@ -185,9 +185,9 @@ quotes:
     <p>{{ quote.what }}</p>
     {% if quote.who and quote.where %}
     <small>{{ quote.who }} in {{quote.where}}</small>
-    {% elseif quote.who %}
+    {% elsif quote.who %}
     <small>{{ quote.who }}</small>
-    {% elseif quote.where %}
+    {% elsif quote.where %}
     <small>{{ quote.where }}</small>
     {% endif %}
 </blockquote>
