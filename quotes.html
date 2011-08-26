@@ -182,7 +182,7 @@ quotes:
 
 {% for quote in page.quotes %}
 <blockquote>
-    <p>{{ quote.what }}</p>
+    <p>{{ quote.what | newline_to_br }}</p>
     {% if quote.who and quote.where %}
     <small>{{ quote.who }} in {{quote.where}}</small>
     {% elsif quote.who %}
