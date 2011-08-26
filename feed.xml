@@ -9,7 +9,7 @@ layout: nil
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>http://coronam.net</id>
     <author>
-        <name>Martin Conento</name>
+        <name>Martin Contento</name>
     </author>
     <rights>Copyright (c) 2011, Martin Contento; all rights reserved.</rights>
 
