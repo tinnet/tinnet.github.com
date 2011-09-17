@@ -183,15 +183,25 @@ quotes:
       where: "The Salmon of Doubt: Hitchhiking the Galaxy One Last Time"
 ---
 
-{% for quote in page.quotes %}
-<blockquote>
-    <p>{{ quote.what | newline_to_br }}</p>
-    {% if quote.who and quote.where %}
-    <small>{{ quote.who }} in {{quote.where}}</small>
-    {% elsif quote.who %}
-    <small>{{ quote.who }}</small>
-    {% elsif quote.where %}
-    <small>{{ quote.where }}</small>
-    {% endif %}
-</blockquote>
-{% endfor %}
+<div class="content">
+    <div class="page-header">
+        <h1>Quotes <small>Collected Wisdom</small></h1>
+    </div>
+    <div class="row">
+        <div class="span4"></div>
+        <div class="span10">
+        {% for quote in page.quotes %}
+            <blockquote>
+                <p>{{ quote.what | newline_to_br }}</p>
+            {% if quote.who and quote.where %}
+                <small>{{ quote.who }} in {{quote.where}}</small>
+            {% elsif quote.who %}
+                <small>{{ quote.who }}</small>
+            {% elsif quote.where %}
+                <small>{{ quote.where }}</small>
+            {% endif %}
+            </blockquote>
+        {% endfor %}
+        </div>
+    </div>
+</div>
