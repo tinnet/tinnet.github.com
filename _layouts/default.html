@@ -3,25 +3,39 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-1.1.0.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
 
-<div class="topbar">
-  <div class="fill">
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
     <div class="container">
-      <h3><a href="#">coronam</a></h3>
-      <ul class="nav">
-        <li class="active"><a href="/">home</a></li>
-        <li><a href="/me.html">me</a></li>
-        <li><a href="/about.html">about</a></li>
-        <li><a href="/quotes.html">quotes</a></li>
-      </ul>
-      <ul class="nav secondary-nav">
-        <li><a href="https://github.com/tinnet">github</a></li>
-        <li><a href="https://twitter.com/#!/43ryn">twitter</a></li>
-      </ul>
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">coronam</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="active"><a href="/">home</a></li>
+          <li><a href="/me.html">me</a></li>
+          <li><a href="/about.html">about</a></li>
+          <li><a href="/quotes.html">quotes</a></li>
+        </ul>
+      </div>
+      <div class="nav-collapse collapse pull-right">
+        <ul class="nav secondary-nav">
+          <li><a href="https://github.com/tinnet">github</a></li>
+          <li><a href="https://twitter.com/#!/43ryn">twitter</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
@@ -32,18 +46,17 @@
 
 <div class="container">
     {{ content}}
+
+  <hr>
+
+  <footer>
+        <p><a href="#">Back to top</a></p>
+        <p class="pull-right"> copyright 2013</p>
+  </footer>    
 </div>
 
-<div id="footer">
-  <div class="inner">
-    <div class="container">
-      <p class="right"><a href="#">Back to top</a></p>
-      <p> copyright 2011 by me</p>
-     </div>
-  </div>
-</div>
-
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
   var _gaq = _gaq || [];
