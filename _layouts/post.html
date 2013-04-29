@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="{{ site.url }}/assets/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="{{ site.url }}/assets/css/bootstrap-responsive.css" rel="stylesheet">
+  
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">coronam</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="active"><a href="/">home</a></li>
+          <li><a href="{{ site.url }}/about.html">about</a></li>
+          <li><a href="{{ site.url }}/quotes.html">quotes</a></li>
+        </ul>
+      </div>
+      <div class="nav-collapse collapse pull-right">
+        <ul class="nav secondary-nav">
+          <li><a href="https://github.com/tinnet">github</a></li>
+          <li><a href="https://twitter.com/#!/43ryn">twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<div class="container">
+    {{ content}}
+
+  <hr>
+
+  <footer>
+        <p><a href="#">Back to top</a></p>
+        <p class="pull-right"> copyright {{ site.time | date: "%Y"}}</p>
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', {{ site.google_analytics }}]);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['_gat._anonymizeIp']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>    
+</body>
+</html>
