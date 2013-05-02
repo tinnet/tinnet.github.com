@@ -10,7 +10,7 @@ tags:
   - laser
 ---
 
-## Summary
+# Summary
 
 First post in my - hopefully short - journey trough the wonders of laser eye correction.
 
@@ -18,7 +18,7 @@ I'll start by describing my current vision and what kind of operation I decided
 to do, then I'll explain the various methods - as far as I understand them after
 months of research - and conclude with the 'why' behind my choice.
 
-## What are we working with
+# What are we working with
 
 Some numbers that probably mean something to you if you started informing
 yourself about any kind of eye surgery:
@@ -30,12 +30,20 @@ yourself about any kind of eye surgery:
     Corneal thickness:
     around 550 nm
 
-## Refractive Eye Surgery
+# Refractive Eye Surgery
 
 *Refractive eye surgery* describes medical procedures that aim at improving
 (or restoring) as person's vision, ideally achieving optimal vision without
 glasses or contact lenses. When talking about laser eye surgery, most of the
 procedures are done to correct *[myopia][myopia]* (aka. nearsightedness)
+
+
+# Getting the cornea in shape
+
+All of the procedures described here have one thing in common: they work
+by reshaping the cornea to correct the optical properties of the eye. The
+differences center around the question how the laser can reach the cornea.
+
 
 ## Flap vs. Flapless
 
@@ -51,34 +59,39 @@ If we only look at *medical procedures* both categories actually only have one
 entry, *LASIK* and *PRK* (aka *LASEK*) respectivly. There are more than a dozen
 different *brand names* for these two basic procedures.
 
-Some, like *Femto-LASIK*, *All-Laser-LASIK*, *Epi-LASEK*, *Wavefront LASIK*
-actually hint at some aspect of the procedure. Others like *Premium
-LASIK*, *eeLASIK*, *Personal LASIK* are just brand names, used by clinics trying
-to distinquish their product from others clinics. Sometimes they are also used to
-allow some kind of (mostly artifical) market segmentation.
+Some, like *Femto-LASIK*, *All-Laser-LASIK*, *Epi-LASEK*, *Wavefront LASIK*,
+*Trans PRK*, *Thin Flap Lasik* actually hint at some aspect of the procedure.
+Others like *Premium LASIK*, *eeLASIK*, *Personal LASIK* are just brand names,
+used by clinics trying to distinquish their product from others clinics.
 
-Some options possibly only are offered to have a cheaper alternative so the
-customer can feel good about choosing the "better" procedure.
+Sometimes they are also used to allow some kind of (mostly artifical) market segmentation. 
+A few possibly only are offered to have a cheaper alternative so the customer can
+feel good about choosing the "better" procedure.
 
 
 ### Flap: Blade vs. Bladeless
 
-Advances in laser technology (and FDA approval) opened up the next differenation
-within the LASIK "community": blade vs. bladeless or rather *microkeratome*
+In this category, the treatment zone lies at a certain depth within in the cornea. The
+exact depth depends on the patients myopia, corneal thickness and the specific procedure.
+It can vary widely, but if an average had to be given, it would probably be around 100nm.
+
+The treatmet zone is prepared byt cutting a flap into the cornea, which can be flipped aside
+while the laser operates and put back on when the procedure is done, acting as a kind of
+natural bandaid.
+
+Advances in laser technology (and FDA approval) opened up the biggest differenation
+within LASIK procedures: blade vs. bladeless or rather *microkeratome*
 vs. *femto laser* procedures.
 
-In both cases the flap has to be created, so the refractive laser can work on
-the corneal tissue. The difference lies in the creation of that flap.
-
-It can either be cut with a sharp medical instrument (LASIK centers try really
-hard to avoid the word *blade*) called keratome or with a laser, usually
-different from the laser for the main procedure.
+The flap can either be cut with a sharp medical instrument (LASIK centers try really
+hard to avoid the word *blade*) called microkeratome or with a *femto laser*, usually
+different from the laser used for the main procedure.
 
 Very often procedures using the keratome are called *basic*, *classic* or
 *standard* LASIK, setting them in contrast to *premium*, *all-laser*, *comfort*
 or *no touch* LASIK.
 
-The keratome's operation is quite straight forward. The patient's eye lids are
+The microkeratome's operation is quite straight forward. The patient's eye lids are
 kept open and the eye is fixated with a suction ring. The microkeratome is set
 to the spficied height (around 100nm) and the flap is cut.
 
